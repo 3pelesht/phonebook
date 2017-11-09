@@ -4,8 +4,10 @@
   "description": "Phonebook nodejs server for best guys",
   "main": "index.js",
   "scripts": {
-    "start" : "node ./index.js",
-    "test": "node ./test.js"
+    "install" : "node ./install/index.js",
+    "reinstall" : "node ./install/reinstall.js",
+    "start": "node ./index.js",
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
     "testproject"
   ],
   "author": "Baravak <itb.baravak@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sqlite3": "^3.1.13"
+  }
 }

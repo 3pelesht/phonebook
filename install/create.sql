@@ -1,0 +1,6 @@
+CREATE TABLE `users` (
+	`id`	INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`displayname`	TEXT UNIQUE,
+	`phonenumber`	TEXT UNIQUE,
+	`mobile`	TEXT UNIQUE
+);
