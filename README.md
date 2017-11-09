@@ -11,6 +11,8 @@ for once test :) `npm run test`
 
 for run project `npm start`
 
+for require in project `const telphoneServer = require('telphone-server')`
+
 ## POST user
 ### REQUEST
 ```
