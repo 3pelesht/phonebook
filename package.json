@@ -1,0 +1,21 @@
+{
+  "name": "telphone-server",
+  "version": "0.0.1",
+  "description": "Phonebook nodejs server for best guys",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node ./index.js",
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/3pelesht/phonebook.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "testproject"
+  ],
+  "author": "Baravak <itb.baravak@gmail.com>",
+  "license": "UNLICENSED"
+}
