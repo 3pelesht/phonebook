@@ -2,17 +2,16 @@
 Phonebook nodejs server for best guys
 
 install with npm `npm install git+ssh://git@github.com/3pelesht/phonebook.git`
+require in project `const telphoneServer = require('phonebook')`
 
-for install db and configs `npm run install`
-
-for reinstall db and configs `npm run reinstall`
-
-for once test :) `npm run test`
-
-for run project `npm start`
-
-for require in project `const telphoneServer = require('phonebook')`
-
+install with git:
+```
+git clone git@github.com:3pelesht/phonebook.git
+npm run install // install db & configs
+npm run reinstall // reinstall db & configs
+npm run test // test
+npm start // start web service
+```
 ## POST user
 ### REQUEST
 ```
