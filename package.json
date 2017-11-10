@@ -1,5 +1,5 @@
 {
-  "name": "telphone-server",
+  "name": "phonebook",
   "version": "0.0.1",
   "description": "Phonebook nodejs server for best guys",
   "main": "index.js",
